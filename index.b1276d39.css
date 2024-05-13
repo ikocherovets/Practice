@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.people {
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+  gap: 40px 30px;
+  padding: 30px 35px 155px;
+  display: grid;
+}
+
+@media (width >= 750px) {
+  .people {
+    padding-inline: 160px;
+  }
+}
+
+@media (width >= 1000px) {
+  .people {
+    grid-template-columns: repeat(4, 200px);
+    padding: 30px 35px 197px;
+  }
+}
+
+@media (width >= 1500px) {
+  .people {
+    padding: 30px 305px 197px;
+  }
+}
+
+.photo img {
+  border-radius: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  text-align: center;
+  color: #2f4f4f;
+  width: 174px;
+  height: 23px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+/*# sourceMappingURL=index.b1276d39.css.map */
